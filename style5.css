@@ -1,0 +1,94 @@
+*body, ul, li {
+    margin: 0; 
+    padding: 0; 
+    list-style: none;
+   
+}
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.main > ul ul {
+    display: none;   
+    position: absolute; /*전체메뉴*/
+    top: 100%;
+    left: 0;
+}
+.main > ul ul ul {
+ left: 100%;
+ top: 0%;
+ width: 100%;
+}
+
+.main ul {
+    position: fixed; /* 상단메뉴고정 */
+    /*background-color: #dfdfdf;*/
+
+}
+
+.main > ul {
+    /*background-color: #dfdfdf;*/
+    display: inline-block;
+    padding: 0 0px;
+    border-radius: 0px;
+}
+.main {
+    position: fixed; /* 상단메뉴고정 */
+    text-align: center;
+    line-height: 30px;
+    
+}
+.main > ul > li {
+    display: inline-block;
+    position: relative;
+}
+.main ul > li {
+     position: relative; /* 3차메보이기 */
+}
+.main ul > li > a {
+    display: block;
+    padding: 5px;
+   /* white-space: nowrap;*/
+}
+.main ul > li:hover > a {
+    background-color: rgb(28, 0, 105);
+    color: white;
+}
+.main ul > li:hover > ul {
+    background-color: white;
+    display: block;
+}
+/*-------------타소스 카피-----------*/
+nav a {
+	/*color: #fff;*/
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	/*line-height: 30px;*/
+	/*text-shadow: 1px 1px 0px #283744;*/
+}
+nav {
+	/*height: 40px;*/
+	width: 100%;
+	background: #f1f1f3;*/
+	/*font-size: 11pt;*/
+	/*font-family: 'PT Sans', Arial, sans-serif;*/
+	/*font-weight: bold;*/
+	position: relative;
+	border-bottom: 2px solid #283744;*/
+}
+nav li a {
+	border-bottom: 1px solid #dddddd;
+	/*box-sizing:border-box;*/
+	/*-moz-box-sizing:border-box;*/
+	/*-webkit-box-sizing:border-box;*/
+}
+nav li ul {
+    font-size: 12px;
+}
+nav ul {
+    font-size: 14px;
+}
+/*-------------타소스 카피------끝-----*/
